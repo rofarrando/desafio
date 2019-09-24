@@ -64,12 +64,11 @@ img {
 
 video {
 	display: block;
- 	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%;
+ 	width: 500px;
   	clear: left;
-  	transform: scale(2,1);
-
+  	margin-left: 220px;
+  	
+  
 }
 
 ol li {
@@ -108,27 +107,6 @@ button {
 	background-color: #FF8D33;
 	text-align: center;
 	
-}
-
-.fila1 {
-	display: block;
-	width: 500px;
-	transform: translate(50px);
-		
-}
-
-.fila2 {
-	display: block;
-	width: 500px;
-	transform: translate(250px);
-		
-}
-
-.fila3 {
-	display: block;
-	width: 500px;
-	transform: translate(500px);
-			
 }
 
 .columna1 {
@@ -188,4 +166,11 @@ button {
 .boton:hover {
 	width: 300px;
 				
+}
+
+
+.fila1 {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 15px;
 }
